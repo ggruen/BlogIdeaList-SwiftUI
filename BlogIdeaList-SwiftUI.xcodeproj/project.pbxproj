@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		936444842310DD65009CBE78 /* BlogIdeaCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936444832310DD65009CBE78 /* BlogIdeaCellView.swift */; };
 		CE44E4DB22F303FF00BE2EDD /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44E4DA22F303FF00BE2EDD /* EditView.swift */; };
 		CE676F3D22F0B74F006141D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE676F3C22F0B74F006141D1 /* AppDelegate.swift */; };
 		CE676F3F22F0B74F006141D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE676F3E22F0B74F006141D1 /* SceneDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		936444832310DD65009CBE78 /* BlogIdeaCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogIdeaCellView.swift; sourceTree = "<group>"; };
 		CE44E4DA22F303FF00BE2EDD /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		CE676F3922F0B74F006141D1 /* BlogIdeaList-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlogIdeaList-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE676F3C22F0B74F006141D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				CE676F3C22F0B74F006141D1 /* AppDelegate.swift */,
 				CE676F3E22F0B74F006141D1 /* SceneDelegate.swift */,
 				CE676F4322F0B74F006141D1 /* ContentView.swift */,
+				936444832310DD65009CBE78 /* BlogIdeaCellView.swift */,
 				CE44E4DA22F303FF00BE2EDD /* EditView.swift */,
 				CE676F4522F0B74F006141D1 /* Assets.xcassets */,
 				CE676F4A22F0B74F006141D1 /* LaunchScreen.storyboard */,
@@ -167,6 +170,7 @@
 				CE676F3D22F0B74F006141D1 /* AppDelegate.swift in Sources */,
 				CE44E4DB22F303FF00BE2EDD /* EditView.swift in Sources */,
 				CE676F4222F0B74F006141D1 /* BlogIdeaList_SwiftUI.xcdatamodeld in Sources */,
+				936444842310DD65009CBE78 /* BlogIdeaCellView.swift in Sources */,
 				CE676F4422F0B74F006141D1 /* ContentView.swift in Sources */,
 				CE676F3F22F0B74F006141D1 /* SceneDelegate.swift in Sources */,
 			);

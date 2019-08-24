@@ -28,4 +28,12 @@ extension BlogIdea {
           
         return request
     }
+
+    /// Compensate for probable bug in Xcode 11 beta 6; NSManagedObject won't call `objectWillChange.send()`,
+    /// so we do..
+    override public func willChangeValue(forKey key: String) {
+        self.objectWillChange.send()
+        super.willChangeValue(forKey: key)
+    }
+
 }

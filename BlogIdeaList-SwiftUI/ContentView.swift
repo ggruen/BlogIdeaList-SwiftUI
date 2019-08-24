@@ -70,14 +70,7 @@ struct ContentView: View {
 
                 Section(header: Text("Blog Ideas")) {
                     ForEach(self.blogIdeas) { blogIdea in
-                        NavigationLink(destination: EditView(blogIdea: blogIdea)) {
-                            VStack(alignment: .leading) {
-                                Text(blogIdea.ideaTitle ?? "")
-                                    .font(.headline)
-                                Text(blogIdea.ideaDescription ?? "")
-                                    .font(.subheadline)
-                            }
-                        }
+                        BlogIdeaCellView(blogIdea: blogIdea)
                     }
                     .onDelete { (indexSet) in // Delete gets triggered by swiping left on a row
                         // ❇️ Gets the BlogIdea instance out of the blogIdeas array

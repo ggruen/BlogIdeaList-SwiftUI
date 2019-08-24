@@ -19,7 +19,7 @@ struct EditView: View {
     // ℹ️ This is used to "go back" when 'Save' is tapped
     @Environment(\.presentationMode) var presentationMode
 
-    var blogIdea: BlogIdea
+    @ObservedObject var blogIdea: BlogIdea
     
     // ℹ️ Temporary in-memory storage for updating the title and description values of a Blog Idea
     @State var updatedIdeaTitle: String = ""
